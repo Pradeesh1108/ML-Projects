@@ -6,7 +6,7 @@ import requests
 from io import BytesIO
 
 app = Flask(__name__)
-openai.api_key = "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"
+openai.api_key = "API-KEY"
 
 @app.route('/')
 def home():
